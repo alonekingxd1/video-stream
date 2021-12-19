@@ -50,7 +50,7 @@ async def ytdl(link):
 
 
 @Client.on_message(command(["play", f"play@{BOT_USERNAME}"]) & other_filters)
-async def play(_, m: Message):
+async def play(_, m: Message): https://telegra.ph/file/db2ef276b01387cffca00.jpg
 
     keyboard = InlineKeyboardMarkup(
         [
